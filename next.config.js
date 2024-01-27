@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+module.exports = {
+    reactStrictMode: true,
+    images: {
+        domains: ['https://api.dicebear.com/7.x/pixel-art/svg'],
+    }
+}
